@@ -9,7 +9,7 @@ int main()
 
 	for (int i = 0; i < n; i++)
 	{
-		for (int j = i; j < n-1; j++)
+		for (int j = 0; j < n-1; j++)
 		{
 			if (list[j]>list[j+1])
 			{
